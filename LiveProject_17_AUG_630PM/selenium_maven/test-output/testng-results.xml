@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1309" started-at="2018-10-11T13:31:19Z" finished-at="2018-10-11T13:31:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1309" started-at="2018-10-11T13:31:19Z" finished-at="2018-10-11T13:31:21Z">
+      <class name="excel.MapWithDataProvider">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:excel.MapWithDataProvider@670b40af]" name="beforeTest" is-config="true" duration-ms="16" started-at="2018-10-11T13:31:19Z" finished-at="2018-10-11T13:31:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:excel.MapWithDataProvider@670b40af]" name="test" duration-ms="72" started-at="2018-10-11T13:31:20Z" data-provider="testdata" finished-at="2018-10-11T13:31:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{User Name=admin, DOB=01-Jan-2010, Password=admin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:excel.MapWithDataProvider@670b40af]" name="test" duration-ms="0" started-at="2018-10-11T13:31:21Z" data-provider="testdata" finished-at="2018-10-11T13:31:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{User Name=mahesh, DOB=01-Jan-1990, Password=mahesh}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:excel.MapWithDataProvider@670b40af]" name="test" duration-ms="16" started-at="2018-10-11T13:31:21Z" data-provider="testdata" finished-at="2018-10-11T13:31:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{User Name=durga, DOB=01-Jan-1998, Password=durga}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.util.Map)[pri:0, instance:excel.MapWithDataProvider@670b40af]" name="test" duration-ms="0" started-at="2018-10-11T13:31:21Z" data-provider="testdata" finished-at="2018-10-11T13:31:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{User Name=sunny, DOB=01-Jan-2000, Password=sunny}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- excel.MapWithDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

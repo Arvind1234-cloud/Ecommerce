@@ -18,6 +18,7 @@ public class TC001_CustomerRegistration extends BasePage {
 		CreateLoginAccount login = new CreateLoginAccount(driver);
 		login.createAccount();
 		log.info("*******************End of TC001_CustomerRegistration******************");
+		System.out.println("Updated this class");
 	}
 
 	@BeforeClass
